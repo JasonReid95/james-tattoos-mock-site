@@ -1,0 +1,38 @@
+body {
+    background-color: antiquewhite;
+}
+
+#hero {
+    border: darkred, 2px solid;
+    margin: 20px;
+}
+
+#about {
+    border: darkorange, 2px solid;
+    margin: 20px;
+}
+
+#services {
+    border: darkgoldenrod, 2px solid;
+    margin: 20px;
+}
+
+#testimonials {
+    border: darkgreen, 2px solid;
+    margin: 20px;
+}
+
+.testimonial {
+    border: darkolivegreen 2px solid;
+    margin: 10px;
+}
+
+#contact {
+    border: darkblue, 2px solid;
+    margin: 20px;
+}
+
+.contact-form {
+    border: darkslateblue 2px solid;
+    margin: 10px;
+}
