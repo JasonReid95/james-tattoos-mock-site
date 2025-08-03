@@ -3,7 +3,7 @@ body {
 }
 
 #hero {
-    border: darkred, 2px solid;
+    border: darkred 2px solid;
     margin: 20px;
     display: flex;
     flex-direction: column;
@@ -14,23 +14,58 @@ body {
 }
 
 #about {
-    border: darkorange, 2px solid;
+    border: darkorange 2px solid;
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    padding: 10px;
+}
+
+.about-title {
+    margin-top: -35px;
 }
 
 #services {
-    border: darkgoldenrod, 2px solid;
+    border: darkgoldenrod 2px solid;
     margin: 20px;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
 }
 
 .service {
     border: darkkhaki 2px solid;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    justify-content: space-between;
+    height: 100%;
+    box-sizing: border-box;
 }
 
 #testimonials {
-    border: darkgreen, 2px solid;
+    border: darkgreen 2px solid;
     margin: 20px;
+}
+
+.testimonials-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.testimonials-subtitle {
+    margin-bottom: 35px;
 }
 
 .testimonial {
@@ -39,11 +74,39 @@ body {
 }
 
 #contact {
-    border: darkblue, 2px solid;
+    border: darkblue 2px solid;
     margin: 20px;
+}
+
+.contact-title, .contact-para {
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-links-list .social-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .contact-form {
     border: darkslateblue 2px solid;
-    margin: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
 }
