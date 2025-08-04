@@ -16,11 +16,36 @@ body {
 #about {
     border: darkorange 2px solid;
     margin: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    gap: 20px;
+    max-width: 1000px;
+    width: 100%;
+    padding: 20px;
+}
+
+.about-image img {
+    width: 250px;
+    border-radius: 10px;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-paras {
+    flex: 1;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 #services {
@@ -52,6 +77,26 @@ body {
 .fine-print {
     font-size: 0.6em;
     color: rgb(132, 130, 130);
+}
+
+#gallery {
+    border: darkcyan 2px solid;
+    margin: 20px;
+    padding: 10px;
+}
+
+.gallery {
+    border: darkslategrey 2px solid;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-image {
+    border: darkturquoise 2px solid;
+    margin: 10px;
+    flex: 1;
 }
 
 #testimonials {
