@@ -3,20 +3,24 @@ body {
 }
 
 #hero {
-    border: darkred 2px solid;
+    border: #B36A4B 5px solid;
     margin: 20px;
+    height: 100vh;
+    background-color: #1E1D20;
+    color: #F3EEE9;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh;
 }
 
 #about {
-    border: darkorange 2px solid;
+    border: #5A6C6A 5px solid;
     margin: 20px;
     padding: 10px;
+    background-color: #D4C8BC;
+    color: #2E2B2F;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,8 +53,10 @@ body {
 }
 
 #services {
-    border: darkgoldenrod 2px solid;
+    border: #B36A4B 5px solid;
     margin: 20px;
+    background-color: #F3EEE9;
+    color: #2E2B2F;
     text-align: center;
 }
 
@@ -63,15 +69,21 @@ body {
 }
 
 .service {
-    border: darkkhaki 2px solid;
+    border: #B36A4B 5px solid;
     margin: 10px;
+    padding: 20px;
+    height: 100%;
+    flex: 1;
+    background-color: #D4C8BC;
+    color: #2E2B2F;
     display: flex;
     flex-direction: column;
-    flex: 1;
-    padding: 20px;
     justify-content: space-between;
-    height: 100%;
     box-sizing: border-box;
+}
+
+.service-subtitle {
+    color: #B36A4B;
 }
 
 .fine-print {
@@ -80,13 +92,15 @@ body {
 }
 
 #gallery {
-    border: darkcyan 2px solid;
+    border: #5A6C6A 5px solid;
     margin: 20px;
     padding: 10px;
+    background-color: #FFFFFF;
+    color: #2E2B2F;
 }
 
 .gallery {
-    border: darkslategrey 2px solid;
+    border: #B36A4B 5px solid;
     margin: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -94,18 +108,20 @@ body {
 }
 
 .gallery-image {
-    border: darkturquoise 2px solid;
+    border: #5A6C6A 5px solid;
     margin: 10px;
     flex: 1;
 }
 
 #testimonials {
-    border: darkgreen 2px solid;
+    border: #B36A4B 5px solid;
     margin: 20px;
+    background-color: #D4C8BC;
+    color: #2E2B2F;
 }
 
 .testimonials {
-    border: darkseagreen 2px solid;
+    border: #5A6C6A 5px solid;
     margin: 30px;
     display: flex;
 }
@@ -120,14 +136,16 @@ body {
 }
 
 .testimonial {
-    border: darkolivegreen 2px solid;
+    border: #B36A4B 5px solid;
     margin: 10px;
     flex: 1;
 }
 
 #contact {
-    border: darkblue 2px solid;
+    border: #5A6C6A 5px solid;
     margin: 20px;
+    background-color: #F3EEE9;
+    color: #2E2B2F;
 }
 
 .contact-title, .contact-para {
@@ -153,7 +171,7 @@ form {
 }
 
 .contact-form {
-    border: darkslateblue 2px solid;
+    border: #B36A4B 5px solid;
     margin: 20px;
     padding: 20px;
 }
