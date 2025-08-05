@@ -12,14 +12,18 @@
     </head>
 
     <body>
+        <header>
+            <nav aria-label="Main site navigation"></nav>
+        </header>
+
         <main>
             <section id="hero">
-                <header>
+                <div class="hero-content">
                     <h1 class="hero-main-title">SLOW WAVE INK</h1>
                     <p class="hero-subhead">James Tattoos - Houston, TX</p>
                     <h2 class="hero-subtitle">LET'S INK YOUR STORY.</h2>
                     <p class="hero-subhead">Custom ink designed to bring your stories to life.</p>
-                </header>
+                </div>
             </section>
 
             <section id="about">
@@ -77,12 +81,30 @@
                 <h2 class="gallery-title">GALLERY</h2>
                 <h3 class="gallery-subtitle">A glimpse into the stories we've inked.</h3>
                 <div class="gallery">
-                    <img src="images/tattoo1.jpg" alt="Tattoo 1" class="gallery-image">
-                    <img src="images/tattoo2.jpg" alt="Tattoo 2" class="gallery-image">
-                    <img src="images/tattoo3.jpg" alt="Tattoo 3" class="gallery-image">
-                    <img src="images/tattoo4.jpg" alt="Tattoo 4" class="gallery-image">
-                    <img src="images/tattoo5.jpg" alt="Tattoo 5" class="gallery-image">
-                    <img src="images/tattoo6.jpg" alt="Tattoo 6" class="gallery-image">
+                    <figure class="gallery-post">
+                        <img src="images/tattoo1.jpg" alt="Tattoo 1" class="gallery-image">
+                        <figcaption class="gallery-caption">A custom piece inspired by the ocean.</figcaption>
+                    </figure>
+                    <figure class="gallery-post">
+                        <img src="images/tattoo2.jpg" alt="Tattoo 2" class="gallery-image">
+                        <figcaption class="gallery-caption">A bold design that tells a personal story.</figcaption>
+                    </figure>
+                    <figure class="gallery-post">
+                        <img src="images/tattoo3.jpg" alt="Tattoo 3" class="gallery-image">
+                        <figcaption class="gallery-caption">A minimalist piece with deep meaning.</figcaption>
+                    </figure>
+                    <figure class="gallery-post">
+                        <img src="images/tattoo4.jpg" alt="Tattoo 4" class="gallery-image">
+                        <figcaption class="gallery-caption">A vibrant design that captures the spirit of adventure.</figcaption>
+                    </figure>
+                    <figure class="gallery-post">
+                        <img src="images/tattoo5.jpg" alt="Tattoo 5" class="gallery-image">
+                        <figcaption class="gallery-caption">A detailed piece that showcases intricate line work.</figcaption>
+                    </figure>
+                    <figure class="gallery-post">
+                        <img src="images/tattoo6.jpg" alt="Tattoo 6" class="gallery-image">
+                        <figcaption class="gallery-caption">A cover-up that transformed an old piece into something new.</figcaption>
+                    </figure>
                 </div>
             </section>
 
@@ -114,10 +136,11 @@
                             <footer class="testimonial-author">- Marcus</footer>
                         </blockquote>
                     </article>
-                </article>
+                </div>
             </section>
+        </main>
 
-            <section id="contact">
+        <footer id="contact">
                 <h2 class="contact-title">LET'S CONNECT.</h2>
                 <p class="contact-para">Whether you're ready to book or just have a question-hit us up.</p>
                 <div class="contact-info">
@@ -159,9 +182,7 @@
                         <button type="submit">Send Message</button>
                     </form>
                 </div>
-            </section>
-        </main>
-        
+        </footer>
     </body>
 
 </html>
