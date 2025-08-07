@@ -3,7 +3,8 @@
 
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <meta name="theme-color" content="#1E1D20">
         <title>Slow Wave Ink</title>
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,12 +13,14 @@
     </head>
 
     <body>
+        <a href="#main-content" class="skip-link">Skip to content</a>
+
         <header>
             <nav aria-label="Main site navigation"></nav>
         </header>
 
-        <main>
-            <section id="hero">
+        <main id="main-content">
+            <section id="hero" class="border-orange">
                 <div class="hero-content">
                     <h1 class="hero-main-title">SLOW WAVE INK</h1>
                     <p class="hero-subhead">James Tattoos - Houston, TX</p>
@@ -26,7 +29,7 @@
                 </div>
             </section>
 
-            <section id="about">
+            <section id="about" class="border-gray">
                 <h2 class="about-title">MY STORY</h2>
                 <div class="about-content">
                     <div class="about-image">
@@ -41,34 +44,34 @@
                 </div>
             </section>
 
-            <section id="services">
+            <section id="services" class="border-orange">
                 <h2 class="services-title">SERVICES</h2>
                 <h3 class="services-subtitle">Every story's different. That's why every piece is custom.</h3>
                 <div class="services">
-                    <div class="service">
+                    <div class="service border-gray">
                         <h4 class="service-title">Consultations</h4>
                         <h5 class="service-subtitle">Free</h5>
                         <p class="service-description">Let's talk through your idea, placement, and what makes the most sense for your design and budget. No pressure, just clarity.</p>
                     </div>
-                    <div class="service">
+                    <div class="service border-gray">
                         <h4 class="service-title">Line Work</h4>
                         <h5 class="service-subtitle">Starting at $60</h5>
                         <p class="fine-print">Final pricing based on complexity, placement, and consult.</p>
                         <p class="service-description">Simple text or minimalist line designs. Clean, sharp, and to the point.</p>
                     </div>
-                    <div class="service">
+                    <div class="service border-gray">
                         <h4 class="service-title">Small Pieces</h4>
                         <h5 class="service-subtitle">Starting at $100</h5>
                         <p class="fine-print">Final pricing based on complexity, placement, and consult.</p>
                         <p class="service-description">Up to 2" x 2". Basic designs with bold personality.</p>
                     </div>
-                    <div class="service">
+                    <div class="service border-gray">
                         <h4 class="service-title">Medium Pieces</h4>
                         <h5 class="service-subtitle">Starting at $150</h5>
                         <p class="fine-print">Final pricing based on complexity, placement, and consult.</p>
                         <p class="service-description">Up to 4" x 4". More detail, more shading, more story.</p>
                     </div>
-                    <div class="service">
+                    <div class="service border-gray">
                         <h4 class="service-title">Large Pieces/Custom Work</h4>
                         <h5 class="service-subtitle">Contact Us</h5>
                         <p class="fine-print">Final pricing based on complexity, placement, and consult.</p>
@@ -77,60 +80,64 @@
                 </div>
             </section>
 
-            <section id="gallery">
+            <section id="gallery" class="border-gray">
                 <h2 class="gallery-title">GALLERY</h2>
                 <h3 class="gallery-subtitle">A glimpse into the stories we've inked.</h3>
-                <div class="gallery">
+                <div class="gallery border-orange">
                     <figure class="gallery-post">
-                        <img src="images/tattoo1.jpg" alt="Tattoo 1" class="gallery-image">
+                        <img src="images/tattoo1.jpg" alt="" class="gallery-image">
                         <figcaption class="gallery-caption">A custom piece inspired by the ocean.</figcaption>
                     </figure>
                     <figure class="gallery-post">
-                        <img src="images/tattoo2.jpg" alt="Tattoo 2" class="gallery-image">
+                        <img src="images/tattoo2.jpg" alt="" class="gallery-image">
                         <figcaption class="gallery-caption">A bold design that tells a personal story.</figcaption>
                     </figure>
                     <figure class="gallery-post">
-                        <img src="images/tattoo3.jpg" alt="Tattoo 3" class="gallery-image">
+                        <img src="images/tattoo3.jpg" alt="" class="gallery-image">
                         <figcaption class="gallery-caption">A minimalist piece with deep meaning.</figcaption>
                     </figure>
                     <figure class="gallery-post">
-                        <img src="images/tattoo4.jpg" alt="Tattoo 4" class="gallery-image">
+                        <img src="images/tattoo4.jpg" alt="" class="gallery-image">
                         <figcaption class="gallery-caption">A vibrant design that captures the spirit of adventure.</figcaption>
                     </figure>
                     <figure class="gallery-post">
-                        <img src="images/tattoo5.jpg" alt="Tattoo 5" class="gallery-image">
+                        <img src="images/tattoo5.jpg" alt="" class="gallery-image">
                         <figcaption class="gallery-caption">A detailed piece that showcases intricate line work.</figcaption>
                     </figure>
                     <figure class="gallery-post">
-                        <img src="images/tattoo6.jpg" alt="Tattoo 6" class="gallery-image">
+                        <img src="images/tattoo6.jpg" alt="" class="gallery-image">
                         <figcaption class="gallery-caption">A cover-up that transformed an old piece into something new.</figcaption>
                     </figure>
                 </div>
             </section>
 
-            <section id="testimonials">
+            <section id="testimonials" class="border-orange">
                 <h2 class="testimonials-title">WHAT THEY'RE SAYING.</h2>
                 <h3 class="testimonials-subtitle">Real people. Real ink. Real stories.</h3>
                 <div class="testimonials">
-                    <article class="testimonial">
+                    <article class="testimonial border-gray">
+                        <h3 class="hidden">Testimonial from Jessica.</h3>
                         <blockquote class="testimonial-quote">
                             <p>"I was looking to get my first tattoo and a friend recommended James. From the consult to the final piece, the whole process felt easy-and I love my tattoo."</p>
                             <footer class="testimonial-author">- Jessica</footer>
                         </blockquote>
                     </article>
-                    <article class="testimonial">
+                    <article class="testimonial border-gray">
+                        <h3 class="hidden">Testimonial from Tommy.</h3>
                         <blockquote class="testimonial-quote">
                             <p>"I had an old piece I needed covered up. James didn't just fix it-he turned it into something I'm proud to show off."</p>
                             <footer class="testimonial-author">- Tommy</footer>
                         </blockquote>
                     </article>
-                    <article class="testimonial">
+                    <article class="testimonial border-gray">
+                        <h3 class="hidden">Testimonial from Nancy & Greg.</h3>
                         <blockquote class="testimonial-quote">
                             <p>"My boyfriend and I went to Slow Wave to get matching tattoos. James and the staff made us feel right at home. The vibe was solid, and the work? Even better."</p>
                             <footer class="testimonial-author">- Nancy & Greg</footer>
                         </blockquote>
                     </article>
-                    <article class="testimonial">
+                    <article class="testimonial border-gray">
+                        <h3 class="hidden">Testimonial from Marcus.</h3>
                         <blockquote class="testimonial-quote">
                             <p>"I flew in from Atlanta after seeing James' work online. The trip was more than worth it-he brought my idea to life better than I imagined."</p>
                             <footer class="testimonial-author">- Marcus</footer>
@@ -140,7 +147,7 @@
             </section>
         </main>
 
-        <footer id="contact">
+        <footer id="contact" class="border-gray">
                 <h2 class="contact-title">LET'S CONNECT.</h2>
                 <p class="contact-para">Whether you're ready to book or just have a question-hit us up.</p>
                 <div class="contact-info">
@@ -163,21 +170,21 @@
                 <p class="contact-form-para">Fill out the form below and we'll get back to you soon.</p>
                 <br>
                 <h3 class="contact-title">CONTACT FORM</h3>
-                <div class="contact-form">
+                <div class="contact-form border-orange">
                     <form action="#" method="post">
                         <div class="form-row">
                             <div class="form-group">
                                 <label for="name">Name:</label>
-                                <input type="text" aria-label="Your first and last name" id="name" name="name" placeholder="First and Last" required>
+                                <input type="text" id="name" name="name" placeholder="First and Last" required>
                             </div>
                             <div class="form-group">
                                 <label for="email">Email:</label>
-                                <input type="email" aria-label="Your email address" id="email" name="email" placeholder="example@mail.com" required>
+                                <input type="email" id="email" name="email" placeholder="example@mail.com" required>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="message">Message:</label>
-                            <textarea id="message" aria-label="What is your message" name="message" rows="4" placeholder="What's your question?" required></textarea>
+                            <textarea id="message" name="message" rows="4" placeholder="What's your question?" required></textarea>
                         </div>
                         <button type="submit">Send Message</button>
                     </form>
