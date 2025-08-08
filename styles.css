@@ -3,7 +3,27 @@ body {
     color: #2E2B2F;
     font-family: 'Lora', serif;
     font-size: 1rem;               
-    line-height: 1.6;               
+    line-height: 1.6;
+    padding-top: calc(1.25rem * 2 + 1.5rem);               
+}
+
+.nav {
+    background-color: #F3EEE9;
+    padding: 1.25rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 section {
@@ -186,6 +206,7 @@ form {
 .contact-form {
     margin: 1.25rem;
     padding: 1.25rem;
+    background-color: #FAF7F2;
 }
 
 .form-row {
@@ -276,9 +297,6 @@ a:focus, button:focus, input:focus, textarea:focus {
     color: #2E2B2F;
 }
 
-
-
-
 .skip-link:focus {
   position: static;
   width: auto;
@@ -300,6 +318,16 @@ a:focus, button:focus, input:focus, textarea:focus {
   clip: rect(0 0 0 0);
   white-space: nowrap;
   border: 0;
+}
+
+input:invalid, textarea:invalid {
+  border-color: #B36A4B; /* your accent color for errors */
+  background-color: #FDEDEC; /* light red background */
+}
+
+input:valid, textarea:valid {
+  border-color: #5A6C6A; /* greenish or your success color */
+  background-color: #E6F4EA; /* light green background */
 }
 
 /* ====== TABLET VIEW (≤1024px) ====== */
